@@ -5,13 +5,6 @@ namespace App\MsSQL;
 class Distrito extends Model
 {
     /**
-     * The connection name for the model.
-     *
-     * @var string
-     */
-    protected $connection = 'mssql';
-
-    /**
      * The database table used by the model.
      *
      * @var string

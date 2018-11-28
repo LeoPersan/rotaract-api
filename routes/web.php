@@ -21,5 +21,3 @@ Route::group(['prefix' => 'clubes'], function() {
     Route::get('/', 'ClubeController@index');
     Route::get('/{clube}', 'ClubeController@show')->where(['clube'=>'[\w_]+']);
 });
-
-Route::get('teste', 'RegiaoController@teste');
